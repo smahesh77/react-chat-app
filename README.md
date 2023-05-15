@@ -15,7 +15,7 @@ npm run dev
 
 ### Put your product key in index.js 
 
-### And back end and run 
+### And run this command 
 ```
 npm run start
 ```
