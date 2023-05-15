@@ -6,9 +6,9 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }));
 
-//product = 28bcb244-5615-4350-86d5-d8a7fc8d2b5f
+//product = 
 
-//key = 5c821132-7e7a-4d84-a545-1a5e1fd4646f
+//key = 
 
 app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
@@ -17,7 +17,7 @@ app.post("/authenticate", async (req, res) => {
     const r = await axios.put(
         'https://api.chatengine.io/users/',
         {username: username, secret: username, firstName: username},
-        {headers: {"private-key": "5c821132-7e7a-4d84-a545-1a5e1fd4646f"}}
+        {headers: {"private-key": "privte key fom chat-engine"}}
     )
     return res.status(r.status).json(r.data)
   } catch (err) {
