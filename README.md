@@ -13,6 +13,8 @@ npm run dev
 
 ## In Backend
 
+### Put your product key in index.js 
+
 ### And back end and run 
 ```
 npm run start
