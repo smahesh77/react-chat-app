@@ -20,4 +20,4 @@ npm run dev
 npm run start
 ```
 
-### you are all set now enjoy.
+### you are all set now, you can chat with yourself. Enjoy!!!.
